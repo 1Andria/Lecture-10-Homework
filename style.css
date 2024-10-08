@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+}
+.above_heading{
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+.heading{
+    color: #4D4F62;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.25px;     
+}
+.paragraph{
+    color: #4D4F62;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    letter-spacing: 0.104px;
+}
+.otxi{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.marcxena{
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    background-image: url(./images/030-search.png);
+    background-repeat: no-repeat;
+    background-position-y:154px ;
+    background-position-x:254px ;
+
+
+
+}
+.marcxena::before{
+    content: "";
+    width: 350px;
+    height: 4px;
+    background-color: #44D3D2;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    display: block;
+}
+.mar_text{
+    display: flex;
+    flex-direction: column;
+    gap: 6px ;
+    margin-left: 32px;
+    margin-top:32px ;
+}
+.mar_heading{
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.mar_para{
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; 
+    letter-spacing: 0.09px;
+}
+.shua_ori{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.shua_ori:hover{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.zeda{
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    background-image: url(./images/002-homepage.png);
+    background-repeat: no-repeat;
+    background-position-y:154px ;
+    background-position-x:254px ;
+}
+.zeda::before{
+    content: "";
+    display: block;
+    width: 350px;
+    height: 4px;
+    background: #EA5454;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+
+}
+.qveda{
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    background-image: url(./images/009-idea.png);
+    background-repeat: no-repeat;
+    background-position-y:154px ;
+    background-position-x:254px ;
+}
+.qveda::before{
+    content: "";
+    display: block;
+    width: 350px;
+    height: 4px;
+    background: #FCAE4A;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+}
+.marjvena{
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    background-image: url(./images/045-software.png);
+    background-repeat: no-repeat;
+    background-position-y:154px ;
+    background-position-x:254px ;
+}
+.marjvena::before{
+    content: "";
+    display: block;
+    width: 350px;
+    height: 4px;
+    background: #549EF2;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+}
